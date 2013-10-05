@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818A7E5E180076EC00EF7310 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E5D180076EC00EF7310 /* Cocoa.framework */; };
+		818A7E68180076EC00EF7310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E66180076EC00EF7310 /* InfoPlist.strings */; };
+		818A7E6A180076EC00EF7310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E69180076EC00EF7310 /* main.m */; };
+		818A7E6E180076EC00EF7310 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E6C180076EC00EF7310 /* Credits.rtf */; };
+		818A7E71180076EC00EF7310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E70180076EC00EF7310 /* AppDelegate.m */; };
+		818A7E74180076EC00EF7310 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E72180076EC00EF7310 /* MainMenu.xib */; };
+		818A7E76180076EC00EF7310 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E75180076EC00EF7310 /* Images.xcassets */; };
+		818A7E7D180076EC00EF7310 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E7C180076EC00EF7310 /* XCTest.framework */; };
+		818A7E7E180076EC00EF7310 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E5D180076EC00EF7310 /* Cocoa.framework */; };
+		818A7E86180076EC00EF7310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E84180076EC00EF7310 /* InfoPlist.strings */; };
+		818A7E88180076EC00EF7310 /* SoundBlossomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E87180076EC00EF7310 /* SoundBlossomerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		818A7E7F180076EC00EF7310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818A7E52180076EC00EF7310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818A7E59180076EC00EF7310;
+			remoteInfo = SoundBlossomer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		818A7E5A180076EC00EF7310 /* SoundBlossomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBlossomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818A7E5D180076EC00EF7310 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		818A7E60180076EC00EF7310 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		818A7E61180076EC00EF7310 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		818A7E62180076EC00EF7310 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		818A7E65180076EC00EF7310 /* SoundBlossomer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundBlossomer-Info.plist"; sourceTree = "<group>"; };
+		818A7E67180076EC00EF7310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		818A7E69180076EC00EF7310 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		818A7E6B180076EC00EF7310 /* SoundBlossomer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundBlossomer-Prefix.pch"; sourceTree = "<group>"; };
+		818A7E6D180076EC00EF7310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		818A7E6F180076EC00EF7310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		818A7E70180076EC00EF7310 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		818A7E73180076EC00EF7310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		818A7E75180076EC00EF7310 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		818A7E7B180076EC00EF7310 /* SoundBlossomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBlossomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818A7E7C180076EC00EF7310 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		818A7E83180076EC00EF7310 /* SoundBlossomerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundBlossomerTests-Info.plist"; sourceTree = "<group>"; };
+		818A7E85180076EC00EF7310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		818A7E87180076EC00EF7310 /* SoundBlossomerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundBlossomerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818A7E57180076EC00EF7310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A7E5E180076EC00EF7310 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818A7E78180076EC00EF7310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A7E7E180076EC00EF7310 /* Cocoa.framework in Frameworks */,
+				818A7E7D180076EC00EF7310 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818A7E51180076EC00EF7310 = {
+			isa = PBXGroup;
+			children = (
+				818A7E63180076EC00EF7310 /* SoundBlossomer */,
+				818A7E81180076EC00EF7310 /* SoundBlossomerTests */,
+				818A7E5C180076EC00EF7310 /* Frameworks */,
+				818A7E5B180076EC00EF7310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818A7E5B180076EC00EF7310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818A7E5A180076EC00EF7310 /* SoundBlossomer.app */,
+				818A7E7B180076EC00EF7310 /* SoundBlossomerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818A7E5C180076EC00EF7310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818A7E5D180076EC00EF7310 /* Cocoa.framework */,
+				818A7E7C180076EC00EF7310 /* XCTest.framework */,
+				818A7E5F180076EC00EF7310 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		818A7E5F180076EC00EF7310 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818A7E60180076EC00EF7310 /* AppKit.framework */,
+				818A7E61180076EC00EF7310 /* CoreData.framework */,
+				818A7E62180076EC00EF7310 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		818A7E63180076EC00EF7310 /* SoundBlossomer */ = {
+			isa = PBXGroup;
+			children = (
+				818A7E6F180076EC00EF7310 /* AppDelegate.h */,
+				818A7E70180076EC00EF7310 /* AppDelegate.m */,
+				818A7E72180076EC00EF7310 /* MainMenu.xib */,
+				818A7E75180076EC00EF7310 /* Images.xcassets */,
+				818A7E64180076EC00EF7310 /* Supporting Files */,
+			);
+			path = SoundBlossomer;
+			sourceTree = "<group>";
+		};
+		818A7E64180076EC00EF7310 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				818A7E65180076EC00EF7310 /* SoundBlossomer-Info.plist */,
+				818A7E66180076EC00EF7310 /* InfoPlist.strings */,
+				818A7E69180076EC00EF7310 /* main.m */,
+				818A7E6B180076EC00EF7310 /* SoundBlossomer-Prefix.pch */,
+				818A7E6C180076EC00EF7310 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		818A7E81180076EC00EF7310 /* SoundBlossomerTests */ = {
+			isa = PBXGroup;
+			children = (
+				818A7E87180076EC00EF7310 /* SoundBlossomerTests.m */,
+				818A7E82180076EC00EF7310 /* Supporting Files */,
+			);
+			path = SoundBlossomerTests;
+			sourceTree = "<group>";
+		};
+		818A7E82180076EC00EF7310 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				818A7E83180076EC00EF7310 /* SoundBlossomerTests-Info.plist */,
+				818A7E84180076EC00EF7310 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818A7E59180076EC00EF7310 /* SoundBlossomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818A7E8B180076EC00EF7310 /* Build configuration list for PBXNativeTarget "SoundBlossomer" */;
+			buildPhases = (
+				818A7E56180076EC00EF7310 /* Sources */,
+				818A7E57180076EC00EF7310 /* Frameworks */,
+				818A7E58180076EC00EF7310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundBlossomer;
+			productName = SoundBlossomer;
+			productReference = 818A7E5A180076EC00EF7310 /* SoundBlossomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		818A7E7A180076EC00EF7310 /* SoundBlossomerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818A7E8E180076EC00EF7310 /* Build configuration list for PBXNativeTarget "SoundBlossomerTests" */;
+			buildPhases = (
+				818A7E77180076EC00EF7310 /* Sources */,
+				818A7E78180076EC00EF7310 /* Frameworks */,
+				818A7E79180076EC00EF7310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818A7E80180076EC00EF7310 /* PBXTargetDependency */,
+			);
+			name = SoundBlossomerTests;
+			productName = SoundBlossomerTests;
+			productReference = 818A7E7B180076EC00EF7310 /* SoundBlossomerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818A7E52180076EC00EF7310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Luca Zorzi";
+				TargetAttributes = {
+					818A7E7A180076EC00EF7310 = {
+						TestTargetID = 818A7E59180076EC00EF7310;
+					};
+				};
+			};
+			buildConfigurationList = 818A7E55180076EC00EF7310 /* Build configuration list for PBXProject "SoundBlossomer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818A7E51180076EC00EF7310;
+			productRefGroup = 818A7E5B180076EC00EF7310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818A7E59180076EC00EF7310 /* SoundBlossomer */,
+				818A7E7A180076EC00EF7310 /* SoundBlossomerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818A7E58180076EC00EF7310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A7E68180076EC00EF7310 /* InfoPlist.strings in Resources */,
+				818A7E76180076EC00EF7310 /* Images.xcassets in Resources */,
+				818A7E6E180076EC00EF7310 /* Credits.rtf in Resources */,
+				818A7E74180076EC00EF7310 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818A7E79180076EC00EF7310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A7E86180076EC00EF7310 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818A7E56180076EC00EF7310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A7E71180076EC00EF7310 /* AppDelegate.m in Sources */,
+				818A7E6A180076EC00EF7310 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818A7E77180076EC00EF7310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818A7E88180076EC00EF7310 /* SoundBlossomerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		818A7E80180076EC00EF7310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818A7E59180076EC00EF7310 /* SoundBlossomer */;
+			targetProxy = 818A7E7F180076EC00EF7310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		818A7E66180076EC00EF7310 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818A7E67180076EC00EF7310 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		818A7E6C180076EC00EF7310 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818A7E6D180076EC00EF7310 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		818A7E72180076EC00EF7310 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818A7E73180076EC00EF7310 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		818A7E84180076EC00EF7310 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818A7E85180076EC00EF7310 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		818A7E89180076EC00EF7310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		818A7E8A180076EC00EF7310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		818A7E8C180076EC00EF7310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
+				INFOPLIST_FILE = "SoundBlossomer/SoundBlossomer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		818A7E8D180076EC00EF7310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
+				INFOPLIST_FILE = "SoundBlossomer/SoundBlossomer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		818A7E8F180076EC00EF7310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundBlossomer.app/Contents/MacOS/SoundBlossomer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoundBlossomerTests/SoundBlossomerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		818A7E90180076EC00EF7310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundBlossomer.app/Contents/MacOS/SoundBlossomer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
+				INFOPLIST_FILE = "SoundBlossomerTests/SoundBlossomerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818A7E55180076EC00EF7310 /* Build configuration list for PBXProject "SoundBlossomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818A7E89180076EC00EF7310 /* Debug */,
+				818A7E8A180076EC00EF7310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818A7E8B180076EC00EF7310 /* Build configuration list for PBXNativeTarget "SoundBlossomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818A7E8C180076EC00EF7310 /* Debug */,
+				818A7E8D180076EC00EF7310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		818A7E8E180076EC00EF7310 /* Build configuration list for PBXNativeTarget "SoundBlossomerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818A7E8F180076EC00EF7310 /* Debug */,
+				818A7E90180076EC00EF7310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818A7E52180076EC00EF7310 /* Project object */;
+}
