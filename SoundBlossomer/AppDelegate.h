@@ -7,9 +7,19 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "InterfaceManager.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSTableViewDelegate, NSTableViewDataSource>
+{
+    IBOutlet NSTableView *table;
+    InterfaceManager *manager;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+
+-(IBAction)addInterface:(id)sender;
+-(IBAction)removeInterface:(id)sender;
+-(IBAction)saveInterfaces:(id)sender;
 
 @end
