@@ -3,6 +3,7 @@ SoundBlossomer
 
 This simple utility lets you manage your [Soundflower](http://cycling74.com/products/soundflower/) audio interfaces easily and effectively.
 It also takes care of unloading and reloading Soundflower's kext to apply your changes.
+You can find the binary of the latest version in the [releases page](https://github.com/LucaTNT/SoundBlossomer/releases).
 
 ### Usage
 Just download the .app and run it, it should be pretty easy to get started. Or if you're a real nerd you can download the entire Xcode project and compile it yourself, how cool is that?
