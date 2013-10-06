@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81279BDF18019F8F00E2C653 /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 81279BDE18019F8F00E2C653 /* appIcon.icns */; };
+		81279BE11801A2BC00E2C653 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81279BE01801A2BC00E2C653 /* MainMenu.xib */; };
 		818A7E5E180076EC00EF7310 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E5D180076EC00EF7310 /* Cocoa.framework */; };
 		818A7E68180076EC00EF7310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E66180076EC00EF7310 /* InfoPlist.strings */; };
 		818A7E6A180076EC00EF7310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E69180076EC00EF7310 /* main.m */; };
 		818A7E6E180076EC00EF7310 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E6C180076EC00EF7310 /* Credits.rtf */; };
 		818A7E71180076EC00EF7310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E70180076EC00EF7310 /* AppDelegate.m */; };
-		818A7E76180076EC00EF7310 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E75180076EC00EF7310 /* Images.xcassets */; };
 		818A7E7D180076EC00EF7310 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E7C180076EC00EF7310 /* XCTest.framework */; };
 		818A7E7E180076EC00EF7310 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E5D180076EC00EF7310 /* Cocoa.framework */; };
 		818A7E86180076EC00EF7310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E84180076EC00EF7310 /* InfoPlist.strings */; };
 		818A7E88180076EC00EF7310 /* SoundBlossomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E87180076EC00EF7310 /* SoundBlossomerTests.m */; };
 		818A7E95180078B300EF7310 /* InterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E92180078B300EF7310 /* InterfaceManager.m */; };
-		81FA68C01800A7D800630E4E /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 81FA68BF1800A7D800630E4E /* appIcon.icns */; };
 		81FA68C418016B8800630E4E /* movePlistAndReloadSoundflower.sh in Resources */ = {isa = PBXBuildFile; fileRef = 81FA68C318016B8800630E4E /* movePlistAndReloadSoundflower.sh */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81279BDE18019F8F00E2C653 /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
+		81279BE01801A2BC00E2C653 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		818A7E5A180076EC00EF7310 /* SoundBlossomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBlossomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818A7E5D180076EC00EF7310 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		818A7E60180076EC00EF7310 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -45,7 +47,6 @@
 		818A7E6D180076EC00EF7310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		818A7E6F180076EC00EF7310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		818A7E70180076EC00EF7310 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		818A7E75180076EC00EF7310 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		818A7E7B180076EC00EF7310 /* SoundBlossomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBlossomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		818A7E7C180076EC00EF7310 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		818A7E83180076EC00EF7310 /* SoundBlossomerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundBlossomerTests-Info.plist"; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		818A7E87180076EC00EF7310 /* SoundBlossomerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundBlossomerTests.m; sourceTree = "<group>"; };
 		818A7E91180078B300EF7310 /* InterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceManager.h; sourceTree = "<group>"; };
 		818A7E92180078B300EF7310 /* InterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceManager.m; sourceTree = "<group>"; };
-		81FA68BF1800A7D800630E4E /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
 		81FA68C318016B8800630E4E /* movePlistAndReloadSoundflower.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = movePlistAndReloadSoundflower.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +81,7 @@
 		818A7E51180076EC00EF7310 = {
 			isa = PBXGroup;
 			children = (
-				81FA68BF1800A7D800630E4E /* appIcon.icns */,
+				81279BDE18019F8F00E2C653 /* appIcon.icns */,
 				818A7E63180076EC00EF7310 /* SoundBlossomer */,
 				818A7E81180076EC00EF7310 /* SoundBlossomerTests */,
 				818A7E5C180076EC00EF7310 /* Frameworks */,
@@ -121,11 +121,11 @@
 		818A7E63180076EC00EF7310 /* SoundBlossomer */ = {
 			isa = PBXGroup;
 			children = (
+				81279BE01801A2BC00E2C653 /* MainMenu.xib */,
 				818A7E91180078B300EF7310 /* InterfaceManager.h */,
 				818A7E92180078B300EF7310 /* InterfaceManager.m */,
 				818A7E6F180076EC00EF7310 /* AppDelegate.h */,
 				818A7E70180076EC00EF7310 /* AppDelegate.m */,
-				818A7E75180076EC00EF7310 /* Images.xcassets */,
 				818A7E64180076EC00EF7310 /* Supporting Files */,
 			);
 			path = SoundBlossomer;
@@ -238,10 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81279BDF18019F8F00E2C653 /* appIcon.icns in Resources */,
+				81279BE11801A2BC00E2C653 /* MainMenu.xib in Resources */,
 				81FA68C418016B8800630E4E /* movePlistAndReloadSoundflower.sh in Resources */,
 				818A7E68180076EC00EF7310 /* InfoPlist.strings in Resources */,
-				81FA68C01800A7D800630E4E /* appIcon.icns in Resources */,
-				818A7E76180076EC00EF7310 /* Images.xcassets in Resources */,
 				818A7E6E180076EC00EF7310 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
