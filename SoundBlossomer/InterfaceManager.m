@@ -2,12 +2,12 @@
 //  InterfaceManager.m
 //  SoundBlossomer
 //
-//  Created by Luca Zorzi on 26/12/12.
+//  Created by Luca Zorzi on 05/10/13.
+//  Licensed under the BSD License
 //  Copyright (c) 2012 Luca Zorzi. All rights reserved.
 //
 
 #import "InterfaceManager.h"
-#import <SecurityFoundation/SFAuthorization.h>
 
 @implementation InterfaceManager
 @synthesize interfaces;

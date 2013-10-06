@@ -3,6 +3,7 @@
 //  SoundBlossomer
 //
 //  Created by Luca Zorzi on 05/10/13.
+//  Licensed under the BSD License
 //  Copyright (c) 2013 Luca Zorzi. All rights reserved.
 //
 
