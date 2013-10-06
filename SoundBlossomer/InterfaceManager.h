@@ -10,6 +10,11 @@
 
 
 @interface InterfaceManager : NSObject
+{
+    NSString *plistPath;
+    NSDictionary *originalPlist;
+    NSMutableDictionary *editedPlist;
+}
 
 @property (nonatomic, retain) NSMutableArray *interfaces;
 
@@ -20,5 +25,6 @@
 -(void)setInterfaceName:(NSString *)newInterfaceName atIndex:(NSInteger)row;
 -(NSInteger)countInterfaces;
 -(void)savePlist;
+-(void)savePlistAndReload;
 
 @end

@@ -21,5 +21,6 @@
 -(IBAction)addInterface:(id)sender;
 -(IBAction)removeInterface:(id)sender;
 -(IBAction)saveInterfaces:(id)sender;
+-(IBAction)saveInterfacesAndReloadSoundflower:(id)sender;
 
 @end

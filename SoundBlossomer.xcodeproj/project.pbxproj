@@ -19,8 +19,8 @@
 		818A7E86180076EC00EF7310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E84180076EC00EF7310 /* InfoPlist.strings */; };
 		818A7E88180076EC00EF7310 /* SoundBlossomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E87180076EC00EF7310 /* SoundBlossomerTests.m */; };
 		818A7E95180078B300EF7310 /* InterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E92180078B300EF7310 /* InterfaceManager.m */; };
-		818A7E9B180087B700EF7310 /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E9A180087B700EF7310 /* plus-8.png */; };
 		81FA68C01800A7D800630E4E /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 81FA68BF1800A7D800630E4E /* appIcon.icns */; };
+		81FA68C418016B8800630E4E /* movePlistAndReloadSoundflower.sh in Resources */ = {isa = PBXBuildFile; fileRef = 81FA68C318016B8800630E4E /* movePlistAndReloadSoundflower.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		818A7E87180076EC00EF7310 /* SoundBlossomerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundBlossomerTests.m; sourceTree = "<group>"; };
 		818A7E91180078B300EF7310 /* InterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceManager.h; sourceTree = "<group>"; };
 		818A7E92180078B300EF7310 /* InterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceManager.m; sourceTree = "<group>"; };
-		818A7E9A180087B700EF7310 /* plus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-8.png"; sourceTree = "<group>"; };
 		81FA68BF1800A7D800630E4E /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
+		81FA68C318016B8800630E4E /* movePlistAndReloadSoundflower.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = movePlistAndReloadSoundflower.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 		818A7E64180076EC00EF7310 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				818A7E9A180087B700EF7310 /* plus-8.png */,
+				81FA68C318016B8800630E4E /* movePlistAndReloadSoundflower.sh */,
 				818A7E65180076EC00EF7310 /* SoundBlossomer-Info.plist */,
 				818A7E66180076EC00EF7310 /* InfoPlist.strings */,
 				818A7E69180076EC00EF7310 /* main.m */,
@@ -241,7 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818A7E9B180087B700EF7310 /* plus-8.png in Resources */,
+				81FA68C418016B8800630E4E /* movePlistAndReloadSoundflower.sh in Resources */,
 				818A7E68180076EC00EF7310 /* InfoPlist.strings in Resources */,
 				81FA68C01800A7D800630E4E /* appIcon.icns in Resources */,
 				818A7E76180076EC00EF7310 /* Images.xcassets in Resources */,
@@ -356,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -388,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -400,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
 				INFOPLIST_FILE = "SoundBlossomer/SoundBlossomer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -412,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
 				INFOPLIST_FILE = "SoundBlossomer/SoundBlossomer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
