@@ -12,7 +12,6 @@
 		818A7E6A180076EC00EF7310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E69180076EC00EF7310 /* main.m */; };
 		818A7E6E180076EC00EF7310 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E6C180076EC00EF7310 /* Credits.rtf */; };
 		818A7E71180076EC00EF7310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A7E70180076EC00EF7310 /* AppDelegate.m */; };
-		818A7E74180076EC00EF7310 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E72180076EC00EF7310 /* MainMenu.xib */; };
 		818A7E76180076EC00EF7310 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818A7E75180076EC00EF7310 /* Images.xcassets */; };
 		818A7E7D180076EC00EF7310 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E7C180076EC00EF7310 /* XCTest.framework */; };
 		818A7E7E180076EC00EF7310 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818A7E5D180076EC00EF7310 /* Cocoa.framework */; };
@@ -46,7 +45,6 @@
 		818A7E6D180076EC00EF7310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		818A7E6F180076EC00EF7310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		818A7E70180076EC00EF7310 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		818A7E73180076EC00EF7310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		818A7E75180076EC00EF7310 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		818A7E7B180076EC00EF7310 /* SoundBlossomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBlossomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		818A7E7C180076EC00EF7310 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -127,7 +125,6 @@
 				818A7E92180078B300EF7310 /* InterfaceManager.m */,
 				818A7E6F180076EC00EF7310 /* AppDelegate.h */,
 				818A7E70180076EC00EF7310 /* AppDelegate.m */,
-				818A7E72180076EC00EF7310 /* MainMenu.xib */,
 				818A7E75180076EC00EF7310 /* Images.xcassets */,
 				818A7E64180076EC00EF7310 /* Supporting Files */,
 			);
@@ -246,7 +243,6 @@
 				81FA68C01800A7D800630E4E /* appIcon.icns in Resources */,
 				818A7E76180076EC00EF7310 /* Images.xcassets in Resources */,
 				818A7E6E180076EC00EF7310 /* Credits.rtf in Resources */,
-				818A7E74180076EC00EF7310 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +300,6 @@
 				818A7E6D180076EC00EF7310 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		818A7E72180076EC00EF7310 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				818A7E73180076EC00EF7310 /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		818A7E84180076EC00EF7310 /* InfoPlist.strings */ = {
