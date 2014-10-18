@@ -12,5 +12,13 @@ Just download the .app and run it, it should be pretty easy to get started. Or i
 Basically, it reads Soundflower's *Info.plist* file, checks for existing audio interfaces and allows you to edit, add or remove them.
 Once you're done, it can either write the plist back and reload Soundflower's kext to apply your changes, or just save the plist without reloading.
 
+### Note for OS X Yosemite users
+OS X 10.10 Yosemite now prevents unsigned Kexts from being loaded. Changing Soundflower's Info.plist file like SoundBlossomer does, breaks the signature and thus the Kext fails to load.
+As a workaround, you can enable unsigned Kexts by running
+
+    sudo nvram boot-args="kext-dev-mode=1"
+
+and then reboot.
+
 ### License
 Soundblossomer is BSD-licensed - you can do pretty much whatever you want with it.
