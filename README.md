@@ -13,7 +13,7 @@ Basically, it reads Soundflower's *Info.plist* file, checks for existing audio i
 Once you're done, it can either write the plist back and reload Soundflower's kext to apply your changes, or just save the plist without reloading.
 
 ### Note for OS X Yosemite users
-OS X 10.10 Yosemite now prevents unsigned Kexts from being loaded. Changing Soundflower's Info.plist file like SoundBlossomer does, breaks the signature and thus the Kext fails to load.
+OS X 10.10 Yosemite now prevents unsigned Kexts from being loaded. Soundflower's is not signed at the moment, so it won't load with OS X's default settings.
 As a workaround, you can enable unsigned Kexts by running
 
     sudo nvram boot-args="kext-dev-mode=1"
