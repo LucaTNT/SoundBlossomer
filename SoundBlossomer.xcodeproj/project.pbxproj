@@ -209,6 +209,10 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Luca Zorzi";
 				TargetAttributes = {
+					818A7E59180076EC00EF7310 = {
+						DevelopmentTeam = V8U8RVA64V;
+						ProvisioningStyle = Automatic;
+					};
 					818A7E7A180076EC00EF7310 = {
 						TestTargetID = 818A7E59180076EC00EF7310;
 					};
@@ -384,12 +388,16 @@
 		818A7E8C180076EC00EF7310 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8U8RVA64V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
 				INFOPLIST_FILE = "SoundBlossomer/SoundBlossomer-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -397,12 +405,16 @@
 		818A7E8D180076EC00EF7310 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8U8RVA64V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundBlossomer/SoundBlossomer-Prefix.pch";
 				INFOPLIST_FILE = "SoundBlossomer/SoundBlossomer-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

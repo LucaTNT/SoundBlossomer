@@ -10,13 +10,13 @@
 #
 
 # Move Plist (tmp file provided as script arguement)
-mv $1 /System/Library/Extensions/Soundflower.kext/Contents/Info.plist
+mv $1 /Library/Extensions/Soundflower.kext/Contents/Info.plist
 
 # Correct ownership and permissions
-chown root:wheel /System/Library/Extensions/Soundflower.kext/Contents/Info.plist
-chmod 644 /System/Library/Extensions/Soundflower.kext/Contents/Info.plist
+chown root:wheel /Library/Extensions/Soundflower.kext/Contents/Info.plist
+chmod 644 /Library/Extensions/Soundflower.kext/Contents/Info.plist
 
 # Unload (twice, it is often needed) Soundflower's kext and then reload it
-kextunload /System/Library/Extensions/Soundflower.kext
-kextunload /System/Library/Extensions/Soundflower.kext
-kextload /System/Library/Extensions/Soundflower.kext
+kextunload /Library/Extensions/Soundflower.kext
+kextunload /Library/Extensions/Soundflower.kext
+kextload /Library/Extensions/Soundflower.kext

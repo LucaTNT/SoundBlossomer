@@ -14,7 +14,7 @@
 
 -(id)init
 {
-    plistPath = @"/System/Library/Extensions/Soundflower.kext/Contents/Info.plist";
+    plistPath = @"/Library/Extensions/Soundflower.kext/Contents/Info.plist";
     if(![[NSFileManager alloc] fileExistsAtPath:plistPath isDirectory:false])
     {
         NSAlert *alert = [NSAlert alertWithMessageText:@"Soundflower not found"
